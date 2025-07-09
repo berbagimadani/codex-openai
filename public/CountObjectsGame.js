@@ -1,7 +1,4 @@
-import Phaser from 'phaser';
-import gsap from 'gsap';
-
-export class CountObjectsGame {
+class CountObjectsGame {
   constructor(parent, config) {
     this.parent = parent;
     this.config = config;
@@ -42,3 +39,5 @@ export class CountObjectsGame {
     }
   }
 }
+
+window.CountObjectsGame = CountObjectsGame;

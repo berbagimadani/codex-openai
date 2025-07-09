@@ -1,14 +1,7 @@
 # Math Path
 
-A simple educational game for counting objects built with React, Tailwind CSS, Phaser, and GSAP.
+A simple educational game for counting objects built with Phaser, GSAP and Tailwind CSS. The application is now a pure static site with vanilla JavaScript.
 
-## Development
+## Usage
 
-This project uses [Vite](https://vitejs.dev/) for the build system.
-
-```bash
-npm install
-npm run dev
-```
-
-The lesson content lives in `src/lessons.json` and is loaded into the React app.
+Open `public/index.html` in any modern browser. No build step or dependencies are required because all libraries are loaded from CDNs.
